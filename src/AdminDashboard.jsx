@@ -18,7 +18,8 @@ import {
   Trash2,
   UserPlus,
 } from "lucide-react";
-const API_URL = "https://learnzlabcpbackend.onrender.com/api/students";
+// const API_URL = "https://learnzlabcpbackend.onrender.com/api/students";
+const API_URL = "http://localhost:3000/api/students"
 const AdminDashboard = () => {
   const [showForm, setShowForm] = useState(false);
   const [students, setStudents] = useState([]);

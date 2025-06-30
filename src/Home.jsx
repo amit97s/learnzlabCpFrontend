@@ -141,7 +141,7 @@ export default function Home() {
                   onClick={toggleLogin}
                   className="hidden sm:flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-medium transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
-                  <span>Get Started</span>
+                  <span>Login</span>
                   <ChevronRight className="w-4 h-4" />
                 </button>
               )}
@@ -168,7 +168,7 @@ export default function Home() {
                 onClick={toggleLogin} 
                 className="w-full flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2.5 rounded-full font-medium mt-4"
               >
-                <span>Get Started</span>
+                <span>Login</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>
@@ -200,10 +200,10 @@ export default function Home() {
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
               
-              <button className="flex items-center space-x-3 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-full font-semibold text-lg transition-colors duration-200 border-2 border-gray-200 hover:border-blue-200 hover:bg-blue-50">
+              {/* <button className="flex items-center space-x-3 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-full font-semibold text-lg transition-colors duration-200 border-2 border-gray-200 hover:border-blue-200 hover:bg-blue-50">
                 <Play className="w-5 h-5" />
                 <span>Watch Demo</span>
-              </button>
+              </button> */}
             </div>
             
             {/* Stats */}
